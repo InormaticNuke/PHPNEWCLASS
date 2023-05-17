@@ -29,7 +29,7 @@ $value2 = $_POST["Value2"];
 
 class operation{
 
-    function add($n1,$n2){
+    function add($Value1,$Value2){
 
         $total = $Value1+$Value2;
         echo "the numbers added together equals to ".$total;
